@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Event Propagation</title>
+    </head>
+    <body>
+        <h1>Working on Event Propagation</h1>
+<!-- Event Bubbling -->
+        <form onclick="alert('I am form')">I am form
+            <div onclick="alert('I am div')">I am div
+                <p onclick="alert('I am P')">I am P</p>
+            </div>
+        </form>
+        <script src="eventPropagation.js"></script>
+    </body>
+</html>
