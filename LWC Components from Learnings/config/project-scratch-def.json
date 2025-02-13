@@ -2,6 +2,7 @@
   "orgName": "Demo company",
   "edition": "Developer",
   "features": ["EnableSetPasswordInApi"],
+  "features":["Communities","ServiceCloud", "EinsteinGPTForDevelopers"],
   "hasSampleData": true,
   "settings": {
     "lightningExperienceSettings": {
